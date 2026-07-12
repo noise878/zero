@@ -1,0 +1,28 @@
+# Секреты
+.env
+scheme.txt
+# Виртуальное окружение
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+storage/*
+!storage/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
